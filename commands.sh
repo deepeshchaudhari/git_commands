@@ -1,3 +1,6 @@
+# stop conda auto activate
+conda config --set auto_activate_base false
+
 #check which process uses how much memory
 ps -o pid,user,%mem,command ax |sort -b -k3 -r | head -10
 
