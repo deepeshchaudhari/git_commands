@@ -1,3 +1,7 @@
+
+# check current ubuntu version
+lsb_release -a
+
 # stop conda auto activate
 conda config --set auto_activate_base false
 
