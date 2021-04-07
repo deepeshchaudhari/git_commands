@@ -1,3 +1,9 @@
+# download from website
+wget 'url'
+
+# open readme in browser
+grip readme.md
+
 # scp remote to local all file in directory
 scp -r deepeshc@turing.cse.iitk.ac.in:/homepages/global/deepeshc/ e:/IIT_KANPUR_CSE/deepeshchaudhari.github.io/turing/
 
